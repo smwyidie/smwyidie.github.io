@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset = "UTF-8">
+      <title>
+        klimenko21.2project
+      </title>
+  </head>
+  <body style="background-color: #ffe5b4">
+    <ul>
+      <li><a href="http://kubsu.ru/">Абсолютная гиперссылка на главную страницу сайта kubsu.ru</a></li>
+      <li><a href="https://kubsu.ru/">Абсолютная на главную сайта kubsu.ru в протоколе https</a></li>
+      <li><a href="http://kubsu.ru/" id="соад легенды"><img src="https://www.rockfm.ru/uploads/photos/1/2021/06/system%20of%20down4.jpg" alt="соад легенды"></a></li>
+      <li><a href="index.html">Сокращенная ссылка на внутреннюю странцу</a></li>
+      <li><a href="/">Сокращенная ссылка на главную страницу</a> </li>
+      <li><a href="#соад легенды">Ссылка на фрагмент текущей страницы</a></li>
+      <li><a href="?k=u&b=g&b=q">Ссылка с тремя параметрами в URL</a></li>
+      <li><a href="?id=9883556829">Ссылка с параметром id в URL</a></li>
+      <li><a href="./index.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+      <li><a href="/about">Относительная ссылка на страницу в каталоге about</a></li>
+      <li><a href="../index.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+      <li><a href="../../index.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
+      <li>Существует<a href="http://kubsu.ru/">контекстная ссылка</a> в тексте абзаца</li>
+      <li><a href="http://site.random.nesush.ru/index.html#randid">Ссылка на фрагмент страницы стороннего сайта</a></li>
+      <li><img src="https://i.pinimg.com/originals/bf/88/e3/bf88e3304229244f708b6d3d7b27d64d.jpg" width="940" height="647" alt="Kourt" usemap="#Kobain"></li>
+      <map name="Kobain">
+        <area shape="rect" coords="0,0,250,200" href="http://kubsu.ru/">
+        <area shape="circle" coords="150,100,50" href="http://kubsu.ru/">
+      </map>
+      <li><a href="">Ссылка с пустым href</a></li>
+      <li><a>Ссылка без href</a></li>
+      <li><a href="http://kubsu.ru/" rel="nofollow">Ссылка, по которой запрещен переход в поисковиках</a></li>
+      <li><a href="http://kubsu.ru/"><noindex>Ссылка, запрещенная для индексации</noindex></a></li>
+      <ol>
+        <li><a href="http://kubsu.ru/" title="Заголовок 1">Первая ссылка</a></li>
+        <li><a href="http://kubsu.ru/" title="Заголовок 2">Вторая ссылка</a></li>
+      </ol>
+      <li><a href="ftp://user:password@random.com/secure.txt">Ссылка на файл на сервере FTP с авторизацией</a></li>
+    </ul>
+    <form action="/" method="POST">
+      <label>
+        ФИО:
+        <br>
+        <input name="field-name" placeholder="Введите ФИО">
+      </label>
+      <br>
+      <label>
+        Номер телефона:
+        <br>
+        <input name="field-tel" type="tel" value="+7">
+      </label>
+      <br>
+      <label>
+        Ваш email:
+        <br>
+        <input name="field-email" type="email" placeholder="Введите email">
+      </label>
+      <br>
+      <label>
+        Дата рождения:
+        <br>
+        <input name="field-date" type="date" placeholder="Введите дату рождения">
+      </label>
+      <br>
+      Укажите пол:
+      <br>
+      <label>
+        <input name="radio-group-1" type="radio" checked="checked" value="Мужской">
+        Мужской
+      </label>
+      <label>
+        <input name="radio-group-1" type="radio" checked="checked" value="Женский">
+        Женский
+      </label>
+      <br>
+      <label>
+        Любимые языки прграммирования
+        <br>
+        <select name="field-name-smwyidie[]" multiple="multiple">
+          <option value="1">Pascal</option>
+          <option value="2">C</option>
+          <option value="3" selected="selected">C++</option>
+          <option value="4" selected="selected">JavaScript</option>
+          <option value="5" selected="selected">PHP</option>
+          <option value="6" selected="selected">Python</option>
+          <option value="7" selected="selected">Java</option>
+          <option value="8">Haskell</option>
+          <option value="9">Clojure</option>
+          <option value="10">Prolog</option>
+          <option value="11">Scala</option>
+        </select>
+      </label>
+      <br>
+      <label>
+        Биография
+        <br>
+        <textarea name="field-name-dopinfo" style="width: 150px; height: 50px;">Введите дополнительную информацию</textarea>
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" checked="checked" name="check-1">
+        С контрактом ознакомлен(а)
+      </label>
+      <br>
+      <input type="submit" value="Сохранить">
+    </form>
+  </body>
+</html>
