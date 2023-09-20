@@ -26,7 +26,7 @@ header
         margin-left: auto;
         background-color:#00000F;
         height:50px;
-        max-width: 960px;
+        max-width: 1000px;
     }
     
     #navy
@@ -37,8 +37,14 @@ header
         width: 100%;
     }
 }
-.polya
+.bomba
 {
     color:#9ACD32;
-    background-color:#00000F;
+    background-color:#BDB76B;
 }
+ footer {
+        background-color: #874;
+        color: white;
+        padding: 15px;
+        text-align: center;
+      }
