@@ -24,8 +24,8 @@
       <li><a href="http://site.random.nesush.ru/index.html#randid">Ссылка на фрагмент страницы стороннего сайта</a></li>
       <li><img src="https://i.pinimg.com/originals/bf/88/e3/bf88e3304229244f708b6d3d7b27d64d.jpg" width="940" height="647" alt="Kourt" usemap="#Kobain"></li>
       <map name="Kobain">
-        <area shape="rect" coords="0,0,250,200" href="http://kubsu.ru/">
-        <area shape="circle" coords="150,100,50" href="http://kubsu.ru/">
+        <area shape="rect" coords="200,200,200,200" href="http://kubsu.ru/">
+        <area shape="circle" coords="100,100,50" href="https://web.telegram.org/">
       </map>
       <li><a href="">Ссылка с пустым href</a></li>
       <li><a>Ссылка без href</a></li>
@@ -41,42 +41,42 @@
       <label>
         ФИО:
         <br>
-        <input name="field-name" placeholder="Введите ФИО">
+        <input name="field-name" placeholder="Введите ФИО" required >
       </label>
       <br>
       <label>
         Номер телефона:
         <br>
-        <input name="field-tel" type="tel" value="+7">
+        <input name="field-tel" type="tel" value="+7" required >
       </label>
       <br>
       <label>
         Ваш email:
         <br>
-        <input name="field-email" type="email" placeholder="Введите email">
+        <input name="field-email" type="email" placeholder="Введите email" required>
       </label>
       <br>
       <label>
         Дата рождения:
         <br>
-        <input name="field-date" type="date" placeholder="Введите дату рождения">
+        <input name="field-date" type="date" placeholder="Введите дату рождения" required >
       </label>
       <br>
       Укажите пол:
       <br>
       <label>
-        <input name="radio-group-1" type="radio" checked="checked" value="Мужской">
+        <input name="radio-group-1" type="radio" checked="checked" value="Мужской" required>
         Мужской
       </label>
       <label>
-        <input name="radio-group-1" type="radio" checked="checked" value="Женский">
+        <input name="radio-group-1" type="radio" checked="checked" value="Женский" required>
         Женский
       </label>
       <br>
       <label>
         Любимые языки прграммирования
         <br>
-        <select name="field-name-smwyidie[]" multiple="multiple">
+        <select name="field-name-smwyidie[]" multiple="multiple" required >
           <option value="1">Pascal</option>
           <option value="2">C</option>
           <option value="3" selected="selected">C++</option>
@@ -98,7 +98,7 @@
       </label>
       <br>
       <label>
-        <input type="checkbox" checked="checked" name="check-1">
+        <input type="checkbox" checked="checked" name="check-1"> 
         С контрактом ознакомлен(а)
       </label>
       <br>
