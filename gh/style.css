@@ -1,0 +1,50 @@
+header
+{
+    .first
+    {
+        width:100%;
+        background-color:#00000F;
+        height: 190px;
+    }
+    
+    .logo
+    {
+        float:left;
+        margin:25px;
+        width:100px;
+        height:100px;
+    }
+    
+    .discrip
+    {
+        color: #FF69B4;
+    }
+    
+    #menu
+    {
+        width:100%;
+        margin-left: auto;
+        background-color:#00000F;
+        height:50px;
+        max-width: 1000px;
+    }
+    
+    #navy
+    {
+        text-align: center;
+        vertical-align: middle;
+        line-height: 50px;
+        width: 100%;
+    }
+}
+.bomba
+{
+    color:#9ACD32;
+    background-color:#BDB76B;
+}
+ footer {
+        background-color: #874;
+        color: white;
+        padding: 15px;
+        text-align: center;
+      }
