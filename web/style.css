@@ -52,6 +52,17 @@ tr
   background-color: #d24d94;
   border-bottom: 2px solid #000;
 }
+tbody tr:nth-child (odd) {
+
+    background-color: #d24d94;
+
+  }
+
+  tbody tr:nth-child (even) {
+
+    background-color: #B4DAF2;
+
+  }
 tr td
 {
   border-right: 2px solid black;
@@ -60,11 +71,7 @@ tr td
 {
   border-left: 2px solid #000000;
 }
-  tbody tr:nth-child (odd) {
 
-    background-color: #C9E4F6;/* фон нечетных строк */
-
-  }
  footer {
         background-color: #874;
         color: white;
