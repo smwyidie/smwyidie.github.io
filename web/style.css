@@ -42,6 +42,24 @@ header
     color:#ff69b4;
     background-color:#BDB76B;
 }
+table
+{
+  border-collapse: collapse;
+}
+
+tr
+{
+  background-color: #d24d94;
+  border-bottom: 2px solid #000;
+}
+tr td
+{
+  border-right: 2px solid black;
+}
+tr td
+{
+  border-left: 2px solid #000000;
+}
  footer {
         background-color: #874;
         color: white;
