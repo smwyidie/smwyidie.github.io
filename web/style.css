@@ -52,17 +52,25 @@ tr
   background-color: #d24d94;
   border-bottom: 2px solid #000;
 }
-tbody tr:nth-child (odd) {
+tr.odd
+{
+    background-color: #cacaca;
+}
 
-    background-color: #d24d94;
+tr.even
+{
+    background-color: #dac034;
+}
 
-  }
+.black
+{
+    color: #343430;
+}
 
-  tbody tr:nth-child (even) {
-
-    background-color: #B4DAF2;
-
-  }
+input
+{
+    background-color: #cacaca;
+}
 tr td
 {
   border-right: 2px solid black;
