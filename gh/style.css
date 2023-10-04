@@ -1,50 +1,117 @@
-header
-{
-    .first
-    {
-        width:100%;
-        background-color:#00000F;
-        height: 190px;
-    }
-    
-    .logo
-    {
-        float:left;
-        margin:25px;
-        width:100px;
-        height:100px;
-    }
-    
-    .discrip
-    {
-        color: #FF69B4;
-    }
-    
-    #menu
-    {
-        width:100%;
-        margin-left: auto;
-        background-color:#00000F;
-        height:50px;
-        max-width: 1000px;
-    }
-    
-    #navy
-    {
-        text-align: center;
-        vertical-align: middle;
-        line-height: 50px;
-        width: 100%;
-    }
+header {
+  .first {
+    width: 100%;
+    flex-flow: wrap;
+    flex-direction: row;
+    flex: 2;
+    order: 2;
+    background-color: #00000f;
+    height: 190px;
+  }
+
+  .logo {
+    float: left;
+    margin: 25px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .discrip {
+    display: flex;
+    flex-direction: column;
+    color: #ff69b4;
+  }
+
+  #menu {
+    width: 100%;
+    margin-left: auto;
+    flex-direction: row;
+    background-color: #00000f;
+    height: 50px;
+    max-width: 1000px;
+  }
+
+  #navy {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    width: 100%;
+  }
 }
-.bomba
-{
-    color:#9ACD32;
-    background-color:#BDB76B;
+.bomba {
+  flex: 2;
+  flex-flow: wrap;
+  flex-direction: row;
+  order: 3;
+  color: #ff69b4;
+  background-color: #bdb76b;
 }
- footer {
-        background-color: #874;
-        color: white;
-        padding: 15px;
-        text-align: center;
-      }
+table {
+  border-collapse: collapse;
+  order: 1;
+  flex-flow: wrap;
+  flex: 3;
+}
+
+tr {
+  background-color: #d24d94;
+  border-bottom: 2px solid #000;
+}
+tr.odd {
+  background-color: #cacaca;
+}
+
+tr.even {
+  background-color: #808000;
+}
+
+.black {
+  color: #343430;
+}
+
+input {
+  background-color: #cacaca;
+}
+tr td {
+  border-right: 2px solid black;
+}
+tr td {
+  border-left: 2px solid #000000;
+}
+
+footer {
+  background-color: #874;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+.forma {
+  flex-flow: wrap;
+  margin-left: auto;
+  flex-direction: row;
+  margin-right: auto;
+  width: 960 px;
+  flex: 1;
+  order: 3;
+}
+.tablee {
+  border: 1;
+  flex-direction: row;
+  color: #0db93b;
+}
+.bottom {
+  vertical-align: middle;
+}
+.soad_ph {
+  width: 60%;
+  height: 60%;
+}
+.cobain_photo {
+  width: 60%;
+  height: 60%;
+}
+@media screen and (min-width: 480px) {
+  .topmenu {
+    flex-direction: row;
+  }
+}
