@@ -7,7 +7,7 @@
       </title>
       <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body style="background-color: #ffe5b4">
+  <div style="background-color: #ffe5b4">
        <header>
         <div class="first">
           <div id="menu">
@@ -23,12 +23,50 @@
           <h1 class="discrip">ню-металл энжоер</h1>
         </div>
     </header>
+    <div class="tablee">         
+<h1>Таблица:</h1>
+        <table class="black">
+            <tr class="odd">
+                <th>Колонка 1</th>
+                <th>Колонка 2</th>
+                <th>Колонка 3</th>
+                <th>Колонка 4</th>
+            </tr>
+            <tr class="even">
+                <td>1</td>
+                <td>.2</td>
+                <td colspan="2">3 и 4</td>
+            </tr>
+            <tr class="odd">
+                <td colspan="2"> 5 и 6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr class="even">
+                <td colspan="3">9 и 10 и 11</td>
+                <td>12</td>
+            </tr>
+            <tr class="odd">
+                <td>13</td>
+                <td colspan="3">14 и 15 и 16</td>
+            </tr>
+            <tr class="even">
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+            </tr>
+            <tr class="odd">
+                <td colspan="4">21 и 22 и 23 и 24</td>
+            </tr>
+        </table>
+      </div>
     <div class="bomba">
       <h2>Список гиперссылок</h2>
     <ul>
       <li><a href="http://kubsu.ru/">Абсолютная гиперссылка на главную страницу сайта kubsu.ru</a></li>
       <li><a href="https://kubsu.ru/">Абсолютная на главную сайта kubsu.ru в протоколе https</a></li>
-      <li><a href="http://kubsu.ru/" id="соад легенды"><img src="https://www.rockfm.ru/uploads/photos/1/2021/06/system%20of%20down4.jpg" alt="соад легенды"></a></li>
+      <li><a href="http://kubsu.ru/" id="соад легенды"><img src="https://www.rockfm.ru/uploads/photos/1/2021/06/system%20of%20down4.jpg" alt="соад легенды" class = "soad_ph"></a></li>
       <li><a href="index.html">Сокращенная ссылка на внутреннюю странцу</a></li>
       <li><a href="/">Сокращенная ссылка на главную страницу</a> </li>
       <li><a href="#соад легенды">Ссылка на фрагмент текущей страницы</a></li>
@@ -40,10 +78,10 @@
       <li><a href="../../index.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a></li>
       <li>Существует<a href="http://kubsu.ru/">контекстная ссылка</a> в тексте абзаца</li>
       <li><a href="http://site.random.nesush.ru/index.html#randid">Ссылка на фрагмент страницы стороннего сайта</a></li>
-      <li><img src="https://i.pinimg.com/originals/bf/88/e3/bf88e3304229244f708b6d3d7b27d64d.jpg" width="940" height="647" alt="Kourt" usemap="#Kobain"></li>
+      <li><img src="https://i.pinimg.com/originals/bf/88/e3/bf88e3304229244f708b6d3d7b27d64d.jpg" width="940" height="647" alt="Kourt" usemap="#Kobain" class = "cobain_photo"></li>
       <map name="Kobain">
-        <area shape="rect" coords="0,0,250,200" href="http://kubsu.ru/">
-        <area shape="circle" coords="150,100,50" href="http://kubsu.ru/">
+        <area shape="circle" coords="20,20,50" href="http://kubsu.ru/">
+        <area shape="rect" coords="70,70,170,120" href="https://web.telegram.org/">
       </map>
       <li><a href="">Ссылка с пустым href</a></li>
       <li><a>Ссылка без href</a></li>
@@ -56,32 +94,24 @@
       <li><a href="ftp://user:password@random.com/secure.txt">Ссылка на файл на сервере FTP с авторизацией</a></li>
       </ul>
         </div>
-          <table border="1" cellpadding="4" cellspacing="1">
-        <tr class="string1"><th>st1</th><th>st2</th><th>st3</th><th>st4</th></tr>
-        <tr class="string2"><td>1</td><td>2</td><td>3</td><td>4</td></tr>
-        <tr class="string1"><td colspan="2">5 и 6</td><td>7</td><td>8</td></tr>
-        <tr class="string2"><td>9</td><td>10</td><td>12</td><td>13</td></tr>
-        <tr class="string1"><td>14</td><td>15</td><td>16</td><td> 17</td></tr>
-        <tr class="string2"><td>18</td><td colspan="3">19 и 20 и 21</td></tr>
-        <tr class="string1"><td>22</td><td>23</td><td>24</td><td>25</td></tr>
-      </table>
+      <div class="forma">
     <form action="/" method="POST">
       <label>
         ФИО:
         <br>
-        <input name="field-name" placeholder="Введите ФИО">
+        <input name="field-name" placeholder="Введите ФИО" requiered>
       </label>
       <br>
       <label>
         Номер телефона:
         <br>
-        <input name="field-tel" type="tel" value="+7">
+        <input name="field-tel" type="tel" value="+7" requiered>
       </label>
       <br>
       <label>
         Ваш email:
         <br>
-        <input name="field-email" type="email" placeholder="Введите email">
+        <input name="field-email" type="email" placeholder="Введите email" requiered>
       </label>
       <br>
       <label>
@@ -104,7 +134,7 @@
       <label>
         Любимые языки прграммирования
         <br>
-        <select name="field-name-smwyidie[]" multiple="multiple">
+        <select name="field-name-smwyidie[]" multiple="multiple" requiered>
           <option value="1">Pascal</option>
           <option value="2">C</option>
           <option value="3" selected="selected">C++</option>
@@ -126,12 +156,13 @@
       </label>
       <br>
       <label>
-        <input type="checkbox" checked="checked" name="check-1">
+        <input type="checkbox" checked="checked" name="check-1" requiered>
         С контрактом ознакомлен(а)
       </label>
       <br>
       <input type="submit" value="Сохранить">
     </form>
+    </div>
     <!DOCTYPE html>
   <html>
   <head>
@@ -139,11 +170,14 @@
   </head>
   <body>
   <footer>
-    <p>© 2023 Клименко Максим Алексеевич</p>
+    <div class = "bottom">
+    <p>© 2023 Клименко "smwyidie" Максим </p>
+    <p>tg:@saymwhy</p>
+    <p>inst:@maxon_creep</p>
+    </div>
   </footer>
   </body>
   </html>
   </body>
-</main>
 </body>
 </html>
