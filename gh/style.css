@@ -18,7 +18,6 @@ header {
 
   .discrip {
     display: flex;
-    flex-direction: column;
     color: #ff69b4;
   }
 
