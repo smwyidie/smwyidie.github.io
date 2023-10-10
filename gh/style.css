@@ -1,57 +1,53 @@
 header {
-  .first {
-    flex-flow: wrap;
-    flex: 2;
-    order: 2;
-    background-color: #00000f;
-    height: 190px;
-  }
-
+  background-color: #00000f;
+  height: 173px;
+  width: 100%;
   .logo {
     float: left;
     margin: 25px;
     width: 100px;
     height: 100px;
   }
-
+  .navy {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    width: 100%;
+  }
   .discrip {
-    display: flex;
     color: #ff69b4;
   }
-
-  #menu {
+  #menu_links {
     width: 100%;
-    margin-left: auto;
     flex-direction: row;
     background-color: #00000f;
     height: 50px;
-    max-width: 1000px;
-  }
-
-  #navy {
-    text-align: center;
-    vertical-align: middle;
-    line-height: 50px;
-    width: 100%;
   }
 }
-.main {
-  flex: 2;
-  flex-flow: wrap;
-  flex-direction: row;
-  order: 3;
-  color: #ff69b4;
+
+body {
   background-color: #bdb76b;
 }
-table {
+@media screen and (min-width: 1100px) {
+  .topmenu {
+    flex-direction: row;
+  }
+}
+.all {
+  flex-direction: column;
+  display: flex;
+}
+.main {
+  color: #ff69b4;
+  order: 2;
+}
+.tablee {
   border-collapse: collapse;
   order: 1;
-  flex-flow: wrap;
-  flex: 3;
 }
 
 tr {
-  background-color: #d24d94;
+  background-color: #790c46;
   border-bottom: 2px solid #000;
 }
 tr.odd {
@@ -62,7 +58,7 @@ tr.even {
   background-color: #808000;
 }
 
-.black {
+.stroki {
   color: #343430;
 }
 
@@ -75,29 +71,10 @@ tr td {
 tr td {
   border-left: 2px solid #000000;
 }
-
-footer {
-  background-color: #874;
-  color: white;
-  padding: 15px;
-  text-align: center;
-}
 .forma {
-  flex-flow: wrap;
   margin-left: auto;
-  flex-direction: row;
   margin-right: auto;
-  width: 960 px;
-  flex: 1;
   order: 3;
-}
-.tablee {
-  border: 1;
-  flex-direction: row;
-  color: #0db93b;
-}
-.bottom {
-  vertical-align: middle;
 }
 .soad_ph {
   width: 60%;
@@ -107,8 +84,19 @@ footer {
   width: 60%;
   height: 60%;
 }
-@media screen and (min-width: 1100px) {
-  .topmenu {
-    flex-direction: row;
-  }
+.tablee {
+  border: 1;
+  flex-direction: row;
+  color: #155425;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  background-color: #874;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+.bottom {
+  vertical-align: middle;
 }
