@@ -32,6 +32,12 @@ body {
   .topmenu {
     flex-direction: row;
   }
+  .logo {
+    float: left;
+    margin: 25px;
+    width: 100px;
+    height: 100px;
+  }
 }
 .all {
   flex-direction: column;
