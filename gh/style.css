@@ -2,6 +2,8 @@ header {
   background-color: #00000f;
   height: 200px;
   width: 100%;
+  flex-flow: row nowrap;
+  display: flex;
   .logo {
     float: left;
     margin: 25px;
@@ -32,6 +34,13 @@ body {
   .topmenu {
     flex-direction: row;
   }
+  .logo {
+    float: left;
+    margin: 25px;
+    width: 70px;
+    height: 70px;
+  }
+}
 .all {
   flex-direction: column;
   display: flex;
