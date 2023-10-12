@@ -36,17 +36,18 @@ body {
   .topmenu {
     flex-direction: row;
   }
+  .all {
+    flex-direction: column;
+    display: flex;
+  }
+}
+
   .logo {
     float: left;
     margin: 25px;
     width: 70px;
     height: 70px;
   }
-}
-.all {
-  flex-direction: column;
-  display: flex;
-}
 .main {
   color: #ff69b4;
   order: 2;
