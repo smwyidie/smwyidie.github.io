@@ -1,9 +1,11 @@
 header {
   background-color: #00000f;
-  height: 200px;
+  height: 220px;
   width: 100%;
-  flex-flow: row nowrap;
+  flex-direction: row;
   display: flex;
+  margin-top: -8px;
+  margin-bottom: 20px;
   .logo {
     float: left;
     margin: 25px;
