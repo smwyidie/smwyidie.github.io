@@ -50,7 +50,7 @@ body {
   }
   .tablee {
     border-collapse: collapse;
-    order: 1;
+    order: 3;
   }
   .main {
     color: #ff69b4;
@@ -59,7 +59,7 @@ body {
   .forma {
     margin-left: auto;
     margin-right: auto;
-    order: 3;
+    order: 1;
   }
 }
 .all {
