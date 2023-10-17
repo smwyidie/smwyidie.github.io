@@ -50,7 +50,7 @@ body {
   }
   .tablee {
     border-collapse: collapse;
-    order: 3;
+    order: 1;
   }
   .main {
     color: #ff69b4;
@@ -59,7 +59,7 @@ body {
   .forma {
     margin-left: auto;
     margin-right: auto;
-    order: 1;
+    order: 3;
   }
 }
 .all {
@@ -114,6 +114,7 @@ tr td {
 }
 .tablee {
   border: 1;
+  order: 2;
   flex-direction: row;
   color: #155425;
   margin-left: auto;
