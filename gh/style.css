@@ -50,11 +50,11 @@ body {
   }
   .tablee {
     border-collapse: collapse;
-    order: 1;
+    order: 2;
   }
   .main {
     color: #ff69b4;
-    order: 2;
+    order: 1;
   }
   .forma {
     margin-left: auto;
