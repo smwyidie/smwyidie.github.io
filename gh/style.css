@@ -70,8 +70,9 @@ body {
   color: #ff69b4;
   order: 1;
 }
-.tablee {
-  border-collapse: collapse;
+.forma {
+  margin-left: auto;
+  margin-right: auto;
   order: 2;
 }
 
@@ -113,8 +114,8 @@ tr td {
   height: 60%;
 }
 .tablee {
-  border: 1;
-  order: 2;
+  border: 2;
+  border-collapse: collapse;
   flex-direction: row;
   color: #155425;
   margin-left: auto;
