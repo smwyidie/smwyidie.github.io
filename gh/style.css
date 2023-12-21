@@ -1,136 +1,174 @@
-header {
-  background-color: #00000f;
-  height: 200px;
-  width: 100%;
-  flex-flow: row nowrap;
-  display: flex;
-  .logo {
-    float: left;
-    margin: 20px;
-    width: 70px;
-    height: 70px;
-  }
-  .navy {
-    text-align: center;
-    vertical-align: middle;
-    line-height: 20px;
-    width: 100%;
-  }
-  .discrip {
-    color: #ff69b4;
-  }
-  #menu_links {
-    width: 100%;
-    flex-direction: row;
-    background-color: #00000f;
-    height: 50px;
-  }
+body
+{
+    flex-direction: column;
+    align-self: stretch;
+    color: #d4d4d7;
+    background-color: #2d2a2e;
+    font-family: "Century Gothic";
+    font-size: 20px;
 }
 
-body {
-  background-color: #bdb76b;
-  margin: 0;
-}
-@media screen and (min-width: 1100px) {
-  .discrip {
-    color: #ff69b4;
-  }
-  .topmenu {
-    flex-direction: column;
-  }
-  .navy {
-    text-align: left;
-    float: left;
-    flex-direction: column;
-    vertical-align: middle;
-    line-height: 20px;
-    width: 100%;
-  }
-  .logo {
-    float: left;
-    margin: 25px;
-    width: 70px;
-    height: 70px;
-  }
-  .tablee {
-    border-collapse: collapse;
+header
+{
     order: 1;
-  }
-  .main {
-    color: #ff69b4;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    margin-top: -8px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-bottom: 5px solid #ffd866;;
+    border-radius: 10px;
+}
+
+aside
+{
     order: 2;
-  }
-  .forma {
-    margin-left: auto;
-    margin-right: auto;
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: white;
+    border-bottom: 5px solid #99ff66;
+    border-radius: 10px;
+}
+
+main
+{
     order: 3;
-  }
-}
-.all {
-  flex-direction: column;
-  display: flex;
-}
-.main {
-  color: #ff69b4;
-  order: 1;
-}
-.forma {
-  margin-left: auto;
-  margin-right: auto;
-  order: 2;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
 }
 
-tr {
-  background-color: #790c46;
-  border-bottom: 2px solid #000;
-}
-tr.odd {
-  background-color: #cacaca;
-}
-
-tr.even {
-  background-color: #808000;
-}
-
-.stroki {
-  color: #343430;
+footer
+{
+    order: 4;
+    flex: 0 0 auto;
+    width: 100%;
+    align-self: flex-end;
+    background-color: #d8d058;
+    text-align: center;
+    border-radius: 10px;
 }
 
-input {
-  background-color: #cacaca;
+nav.header-logo
+{
+    float: left;
 }
-tr td {
-  border-right: 2px solid black;
+
+img.header-logo
+{
+    width: 90px;
+    height: 90px;
+    min-height: 100px;
+    min-width: 100px;
 }
-tr td {
-  border-left: 2px solid #000000;
+
+nav.header-info
+{
+    flex-direction: column;
+    flex-basis: 100%;
+    align-self: stretch;
+    text-align: center;
 }
-.forma {
-  margin-left: auto;
-  margin-right: auto;
+
+nav.aside-link
+{
+    margin: 10px;
+    padding: 5px;
+    background-color: #433647;
+    border-radius: 10px;
 }
-.soad_ph {
-  width: 60%;
-  height: 60%;
+
+div.table
+{
+    order: 1;
 }
-.cobain_photo {
-  width: 60%;
-  height: 60%;
+
+div.links
+{
+    order: 2;
 }
-.tablee {
-  border: 2;
-  border-collapse: collapse;
-  flex-direction: row;
-  color: #155425;
-  margin-left: auto;
-  margin-right: auto;
+
+div.form
+{
+    order: 3;
 }
-footer {
-  background-color: #874;
-  color: white;
-  padding: 15px;
-  text-align: center;
+
+tr
+{
+    border-bottom: 2px solid #2d2a2e;
 }
-.bottom {
-  vertical-align: middle;
+
+.black
+{
+    color: #2d2a2e;
+}
+
+input, select, textarea, tr.odd
+{
+    background-color: #d4d4d7;
+}
+
+tr.even
+{
+    background-color: #ffd866;
+}
+
+a.link-to-task
+{
+    font-size: 25px;
+}
+
+a:link
+{
+    color: #ffe16f;
+}
+
+a:visited
+{
+    color: #ff6231;
+}
+
+a:active
+{
+    color: #ffc100;
+}
+
+a:hover
+{
+    color: #ffc200;
+}
+
+h1
+{
+    margin: -1px;
+}
+h2
+{
+    margin: -1px;
+}
+
+@media screen and (min-width: 1100px)
+{
+    body
+    {
+        flex-direction: row;
+    }
+    aside
+    {
+        flex-direction: column;
+        float: left;
+    }
+    div.table
+    {
+        order: 2;
+    }
+    div.links
+    {
+        order: 1;
+    }
 }
