@@ -1,50 +1,167 @@
+body
+{
+    flex-direction: column;
+    align-self: stretch;
+    color: #d4d4d7;
+    background-color: #2d2a2e;
+    font-family: "Century Gothic";
+    font-size: 20px;
+}
+
 header
 {
-    .first
-    {
-        width:100%;
-        background-color:#00000F;
-        height: 190px;
-    }
-    
-    .logo
-    {
-        float:left;
-        margin:25px;
-        width:100px;
-        height:100px;
-    }
-    
-    .discrip
-    {
-        color: #FF69B4;
-    }
-    
-    #menu
-    {
-        width:100%;
-        margin-left: auto;
-        background-color:#00000F;
-        height:50px;
-        max-width: 1000px;
-    }
-    
-    #navy
-    {
-        text-align: center;
-        vertical-align: middle;
-        line-height: 50px;
-        width: 100%;
-    }
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    border-bottom: 5px solid #6ee62e;;
 }
-.bomba
+
+aside
 {
-    color:#9ACD32;
-    background-color:#BDB76B;
+    order: 2;
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    background-color: white;
+    border-bottom: 5px solid #6ee62e;
 }
- footer {
-        background-color: #874;
-        color: white;
-        padding: 15px;
-        text-align: center;
-      }
+
+main
+{
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+footer
+{
+    order: 4;
+    flex: 0 0 auto;
+    width: 100%;
+    align-self: flex-end;
+    background-color: #d8d058;
+    text-align: center;
+}
+
+nav.header-logo
+{
+    float: left;
+}
+
+img.header-logo
+{
+    width: 90px;
+    height: 90px;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+nav.header-info
+{
+    flex-direction: column;
+    flex-basis: 100%;
+    align-self: stretch;
+    text-align: center;
+}
+
+nav.aside-link
+{
+    margin: 10px;
+    padding: 5px;
+    background-color: #2d2a2e;
+    border-radius: 10px;
+}
+
+div.table
+{
+    order: 1;
+}
+
+div.links
+{
+    order: 2;
+}
+
+div.form
+{
+    order: 3;
+}
+
+tr
+{
+    border-bottom: 2px solid #2d2a2e;
+}
+
+.black
+{
+    color: #2d2a2e;
+}
+
+input, select, textarea, tr.odd
+{
+    background-color: #d4d4d7;
+}
+
+tr.even
+{
+    background-color: #ffd866;
+}
+
+a.link-to-task
+{
+    font-size: 25px;
+}
+
+a:link
+{
+    color: #6ee62e;
+}
+
+a:visited
+{
+    color: #6ee62e;
+}
+
+a:active
+{
+    color: #6ee62e;
+}
+
+a:hover
+{
+    color: #6ee62e;
+}
+
+h1
+{
+    margin: -1px;
+}
+h2
+{
+    margin: -1px;
+}
+
+@media screen and (min-width: 1100px)
+{
+    body
+    {
+        flex-direction: row;
+    }
+    aside
+    {
+        flex-direction: column;
+        float: left;
+    }
+    div.table
+    {
+        order: 2;
+    }
+    div.links
+    {
+        order: 1;
+    }
+}
