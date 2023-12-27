@@ -1,16 +1,32 @@
-function calculate_price()
+function main()
 {
-    console.log("Я запустился");
-    let product = document.getElementById("products").value;
-    let n = document.getElementById("number").value;
-    if (!isNaN(n) && parseFloat(parseInt(n)) == parseFloat(n) && n >= 0)
+    $(".gallery").slick(
     {
-        let cost = n * product;
-        cost = cost.toFixed(2);
-        document.getElementById("result").textContent = cost + " руб.";
+        dots: true,
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive:
+        [
+        {
+            breakpoint: 1200,
+            settings:
+            {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 900,
+            settings:
+            {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+        ]
     }
-    else
-    {
-        document.getElementById("result").textContent = "Неправильный формат ввода кол-ва товара";
-    }
+    );
 }
+
+$(document).ready(main)
