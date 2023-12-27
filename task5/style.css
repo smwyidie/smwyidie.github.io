@@ -26,3 +26,66 @@ input#number {
         min-width: 30%;
     }
 }
+
+body, html {
+    height: 100%;
+    width: 100%;
+    color: #d4d4d7;
+    background-color: #2d2a2e;
+    font-family: "JetBrains Mono";
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: -5px;
+    background-color: #363337;
+    border-bottom: 3px solid #7fffd4;
+}
+
+aside {
+    order: 2;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    background-color: #363337;
+    border-bottom: 2px solid #7fffd4;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+main {
+    align-items: center;
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+div.tasks {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4b454b;
+    border: #7fffd4 solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 60%;
+}
+
+footer {
+    order: 4;
+    width: 100%;
+    background-color: #363337;
+    text-align: center;
+    border-top:  #7fffd4 solid 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
