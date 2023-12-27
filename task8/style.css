@@ -52,7 +52,7 @@ label#for-checkbox {
     transform: translate(-50%, -50%);
     position: absolute;
     background-color: #4b454b;
-    border: #ffd866 solid 2px;
+    border: #7fffd4 solid 2px;
     border-radius: 5px;
     flex-direction: column;
     padding: 10px;
@@ -75,14 +75,14 @@ label#for-checkbox {
     flex-direction: column;
     align-items: center;
     background-color: #4b454b;
-    border: #ffd866 solid 2px;
+    border:#7fffd4 solid 2px;
     border-radius: 5px;
 }
 
 #close-pop-up {
     left: 0;
     align-self: flex-start;
-    color: #ff403c;
+    color: #7fffd4;
     margin-top: -10px;
     margin-right: -10px;
 }
