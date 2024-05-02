@@ -107,7 +107,7 @@
 
 <footer>
     <p class=" text_in_footer">created by</p>
-    <h3 class=" text_in_footer">Antoha bidZ footbpli$t</h3>
+    <h3 class=" text_in_footer">smwyidie</h3>
 </footer>
 </body>
 
