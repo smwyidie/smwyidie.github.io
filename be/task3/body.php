@@ -18,8 +18,8 @@
         <img class="header-logo" src="../../logo.png" alt="Logo">
     </nav>
     <nav class="header-info">
-        <h2 class="header-title">$$$ website?</h2>
-        <h3 class="header-task">Задание 3</h3>
+        <h2 class="header-title">saymehwy3?</h2>
+        <h3 class="header-task">task 3</h3>
     </nav>
 
 </header>
@@ -91,7 +91,7 @@
 
             <div class="label-center">
                 <input id="contract" type="checkbox" name="contract" value="1">
-                <label id="for-contract" class="black" for="contract">С контрактом ознакомлен</label>
+                <label id="for-contract" class="black" for="contract">С контрактом ознакомлен(a)</label>
             </div>
 
             <div id="div-with-submit">
@@ -107,7 +107,7 @@
 
 <footer>
     <p class=" text_in_footer">created by</p>
-    <h3 class=" text_in_footer">smwyidie</h3>
+    <h3 class=" text_in_footer">smwyidie?</h3>
 </footer>
 </body>
 
