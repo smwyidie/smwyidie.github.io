@@ -150,11 +150,7 @@ if (isset($_GET['errors_flag'])) {
 
 </header>
 
-<aside>
-    <nav class="aside-link">
-        <a href="../index.html" class="">Задания 4-го семестра</a>
-    </nav>
-</aside>
+
 
 <main>
     <div class="tasks" id="div_form">
