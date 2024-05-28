@@ -49,7 +49,7 @@ foreach ($all_names as $name) {
         <img class="header-logo" src="../../logo.png" alt="Logo">
     </nav>
     <nav class="header-info">
-        <h2 class="header-title">$$$ website?</h2>
+        <h2 class="header-title">website</h2>
         <h3 class="header-task">Задание 5</h3>
     </nav>
 
@@ -107,7 +107,7 @@ foreach ($all_names as $name) {
 
 <footer>
     <p class=" text_in_footer">created by</p>
-    <h3 class=" text_in_footer">Денис Чупилко</h3>
+    <h3 class=" text_in_footer">smwyidie</h3>
 </footer>
 </body>
 
