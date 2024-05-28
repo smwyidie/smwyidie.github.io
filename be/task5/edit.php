@@ -49,17 +49,12 @@ foreach ($all_names as $name) {
         <img class="header-logo" src="../../logo.png" alt="Logo">
     </nav>
     <nav class="header-info">
-        <h2 class="header-title">website</h2>
+        <h2 class="header-title">site</h2>
         <h3 class="header-task">Задание 5</h3>
     </nav>
 
 </header>
 
-<aside>
-    <nav class="aside-link">
-        <a href="../index.html" class="">Задания 4-го семестра</a>
-    </nav>
-</aside>
 
 <main>
     <div class="tasks" id="div_form">
